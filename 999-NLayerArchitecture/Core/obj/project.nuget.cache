@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "bFFl1qTMu6k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kutluhan.yegit\\Desktop\\NLayerArchitecture\\999-NLayerArchitecture\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\aspectcore.abstractions\\2.4.0\\aspectcore.abstractions.2.4.0.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\aspectcore.core\\2.4.0\\aspectcore.core.2.4.0.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\aspectcore.extensions.reflection\\2.4.0\\aspectcore.extensions.reflection.2.4.0.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.2\\microsoft.extensions.caching.abstractions.9.0.2.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.2\\microsoft.extensions.caching.memory.9.0.2.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.2\\microsoft.extensions.logging.abstractions.9.0.2.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\microsoft.extensions.options\\9.0.2\\microsoft.extensions.options.9.0.2.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.2\\microsoft.extensions.primitives.9.0.2.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\stackexchange.redis\\2.8.24\\stackexchange.redis.2.8.24.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.2\\system.diagnostics.diagnosticsource.9.0.2.nupkg.sha512",
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
