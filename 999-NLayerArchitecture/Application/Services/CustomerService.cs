@@ -2,6 +2,7 @@
 using Application.Interfaces;
 using Application.Validation.FluentValidation;
 using Core.Aspects.AspectCore.Caching.MemoryCache;
+using Core.Aspects.AspectCore.Exception;
 using Core.Aspects.AspectCore.Validation;
 using Core.Interfaces.UnitOfWork;
 using Core.Utilities.Results.Abstracts;
@@ -10,6 +11,7 @@ using Domain.Entities;
 
 namespace Application.Services
 {
+    [ExceptionHandlingAspect]
     public class CustomerService : ICustomerService
     {
         IUnitOfWork _unitOfWork;
@@ -18,6 +20,7 @@ namespace Application.Services
             _unitOfWork = unitOfWork;
         }
 
+        
         [ValidationAspect(typeof(CustomerValidator))]
         
         [InvalidateMemoryCacheAspect("customer_")]
@@ -29,6 +32,7 @@ namespace Application.Services
         }
 
         [MemoryCacheAspect(60,"customer_")]
+        
         public async Task<IDataResult<IEnumerable<Customer>>> GetAllAsync()
         {
             var result = await _unitOfWork.GetRepository<Customer>().GetAllAsync();
